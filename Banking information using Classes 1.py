@@ -20,6 +20,6 @@ class banking:
     
 
 for i in range(2):
-    b1=banking()
-    print(b1.withdraw())
-    print(b1.deposit())
+    bankuser1=banking()
+    print(bankuser1.withdraw())
+    print(bankuser1.deposit())
