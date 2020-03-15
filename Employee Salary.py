@@ -9,6 +9,7 @@ class Company:
         self.salary = int(input("Enter Employee Salary: "))
 
 
+# Calculating the salary after doing all the operations
 class Basic_salary:
 
     def __init__(self):
@@ -19,6 +20,7 @@ class Basic_salary:
         self.net_salary = self.salary + self.TA + self.DA + self.HRF - self.EPF
 
 
+# The concept of Multiple Inheritance
 class Calculation(Company, Basic_salary):
 
     def __init__(self):
