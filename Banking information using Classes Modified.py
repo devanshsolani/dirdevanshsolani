@@ -28,7 +28,7 @@ class Bank(object):
         print("Updated balance is", self.initial_bal)
 
         
-b1 = Bank()
-b1.accept()
-b1.withdraw()
-b1.deposit()
+bank1 = Bank()
+bank1.accept()
+bank1.withdraw()
+bank1.deposit()
