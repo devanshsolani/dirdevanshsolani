@@ -11,6 +11,7 @@ class Time:
         print(self.hours, " Hours and: ", self.minutes, " Minutes: ")
 
 
+# Calculating the final time
 class final_time:
 
     hours = 0
