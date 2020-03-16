@@ -22,5 +22,3 @@ class Derived(Base1, Base2):
 
 object_ = Derived()
 object_.print_strings()
-
-# Output : Base 1, Base 2, Derived(Hi, Hello)
