@@ -1,5 +1,6 @@
 class Temperature(object):
 
+    # Initializing the code
     def __init__(self, fahrenheit=32):
         self._fahrenheit = fahrenheit
         self._celsius = self.convert_to_celsius(fahrenheit)
