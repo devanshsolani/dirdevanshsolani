@@ -9,8 +9,8 @@ class Student:
         print("name:", self.name)
         print("rollno:", self.rollno)
 
-# The code will give the information as the output
 
+# The code will give the information as the output
 name = str(input("Please enter your name: "))
 rollno = str(input("Please enter your roll number: "))
 
