@@ -13,6 +13,7 @@ class Shapes:
         print("Area of Rectangle: ", (self.length * self.breadth))
         print("Perimeter of rectangle: ", 2 * (self.length + self.breadth))
 
+# Calling the functions
 call = Shapes()
 call.square()
 call.rectangle()
