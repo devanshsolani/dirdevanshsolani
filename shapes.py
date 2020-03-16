@@ -10,10 +10,8 @@ class Shapes:
         print("Perimeter of square:", self.side * 4)
 
     def rectangle(self):
-        print("Area of Rectangle: ", (self.length *
-                                      self.breadth))
-        print("Perimeter of rectangle: ", 2 * (self.length +
-                                               self.breadth))
+        print("Area of Rectangle: ", (self.length * self.breadth))
+        print("Perimeter of rectangle: ", 2 * (self.length + self.breadth))
 
 call = Shapes()
 call.square()
