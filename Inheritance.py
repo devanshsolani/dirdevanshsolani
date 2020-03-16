@@ -1,6 +1,3 @@
-# Python program to show multiple inheritance
-
-
 class Base1:
     def __init__(self):
         self.string_1 = "Hi"
