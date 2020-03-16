@@ -12,6 +12,7 @@ class polygon:
             print("sides", i+1, "is", self.sides[i])
 
 
+# Doing the calculations 
 class Triangle(polygon):
 
     def __init__(self):
@@ -24,7 +25,7 @@ class Triangle(polygon):
         print("The area of the triangle is %0.2f" % area)
 
 
-t = Triangle()
-t.inputsides()
-t.dispsides()
-t.findArea()
+tri = Triangle()
+tri.inputsides()
+tri.dispsides()
+tri.findArea()
